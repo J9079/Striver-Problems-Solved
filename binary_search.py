@@ -86,13 +86,13 @@
 # Output: -1
 # Explanation: Since there are more students than total books, it's impossible to allocate a book to each student.
 
-def pages(arr):
-  first=0
-  last=0
-  ans=-1
-  for i in range(len(arr)):
-    last+=arr[i]
-    first=max(arr[i],first)
-  while first<=last:
-    mid=(first+last)//2
-    if   
+# def pages(arr):
+#   first=0
+#   last=0
+#   ans=-1
+#   for i in range(len(arr)):
+#     last+=arr[i]
+#     first=max(arr[i],first)
+#   while first<=last:
+#     mid=(first+last)//2
+#     if   
